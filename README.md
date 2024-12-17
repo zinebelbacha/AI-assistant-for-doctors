@@ -4,6 +4,9 @@
 # What is ai assistant for doctors
 
 AI assistant for doctors contains two advanced AI models designed to assist doctors in diagnosing and analyzing medical conditions from chest X-ray images and medical reports. Below are the details of the two models:
+![image](https://github.com/user-attachments/assets/f1bedf5d-8bf2-456b-b64d-64c303490806)
+
+
 
 ---
 
@@ -58,5 +61,6 @@ For further details, refer to the detailed documentation in each model's folder.
  - Filtrage des stopwords
  - Extraction d'entités médicales
 ## **4.Deep Face Model for authentification
-To enhance the security of the website, we have implemented two-factor authentication to ensure that only the authorized doctor can access the sensitive medical dataset. Below is an image stored by our Deep Face Model as part of the authentication process.
+To enhance the security of the website, we have implemented two-factor authentication to ensure that only the authorized doctor can access the sensitive medical dataset. Below is an overview of the website and an image stored by our Deep Face Model as part of the authentication process.
+![image](https://github.com/user-attachments/assets/521ebffb-a2e2-47dd-b950-b877205256e0)
 ![image](https://github.com/user-attachments/assets/a69ebd95-dab6-4d13-b85e-cbede92e7239)
