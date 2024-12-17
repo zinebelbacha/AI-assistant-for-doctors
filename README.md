@@ -46,21 +46,21 @@ To use these models effectively, follow the instructions in the documentation pr
 2. Install the required dependencies listed in `requirements.txt`.
 
 
-## **3. Models Process Overview
-### ** X-Ray Image Preprocessing 
+## **3. Models Process Overview**
+### ** X-Ray Image Preprocessing **
 Preprocess the datasets using the scripts provided.
 Run the models for classification or text analysis.
 
 ---
 
 For further details, refer to the detailed documentation in each model's folder.
-### ** Medical Reports Preprocessing 
+### ** Medical Reports Preprocessing **
  - Suppression des caractères non pertinents
  - Gestion des formats
  - Anonymisation
  - Filtrage des stopwords
  - Extraction d'entités médicales
-## **4.Deep Face Model for authentification
+## **4.Deep Face Model for authentification**
 To enhance the security of the website, we have implemented two-factor authentication to ensure that only the authorized doctor can access the sensitive medical dataset. Below is an overview of the website and an image stored by our Deep Face Model as part of the authentication process.
 
 
