@@ -1,12 +1,15 @@
-# AI Assistant for Doctors
+![image](https://github.com/user-attachments/assets/0dbfcceb-e74c-415b-99a2-5c80645ff06b)
 
-This repository contains two advanced AI models designed to assist doctors in diagnosing and analyzing medical conditions from chest X-ray images and medical reports. Below are the details of the two models:
+
+# What is ai assistant for doctors
+
+AI assistant for doctors contains two advanced AI models designed to assist doctors in diagnosing and analyzing medical conditions from chest X-ray images and medical reports. Below are the details of the two models:
 
 ---
 
 ## **1. Chest X-ray Classification Model**
 
-This model is a custom TensorFlow implementation for classifying chest X-ray images, leveraging the DenseNet121 architecture.
+This model is a custom TensorFlow implementation for classifying chest X-ray images, leveraging the DenseNet121 architecture , fine tuned on the dataset below .
 
 ### **Model Details**
 - **Architecture**: DenseNet121
@@ -19,13 +22,7 @@ This model is a custom TensorFlow implementation for classifying chest X-ray ima
    - **Source**: [Kaggle](https://www.kaggle.com/nih-chest-xrays/data)  
    - **Contents**: 112,120 X-ray images from 30,805 unique patients  
 
-2. **MIMIC-CXR Database**  
-   - **Source**: [PhysioNet](https://physionet.org/content/mimic-cxr/2.0.0/)  
-   - **Contents**: 377,110 chest X-rays associated with 227,835 imaging studies  
-
----
-
-## **2. OCR Model for Medical Report Analysis**
+## **2. OCR & Classifier Model for Medical Report Analysis**
 
 This model is designed to extract and analyze textual information from medical reports. It classifies the type of case based on the extracted information, identifying conditions such as tuberculosis, pneumonia, or normal cases.
 
@@ -44,9 +41,19 @@ To use these models effectively, follow the instructions in the documentation pr
 
 1. Clone the repository.
 2. Install the required dependencies listed in `requirements.txt`.
-3. Preprocess the datasets using the scripts provided.
-4. Run the models for classification or text analysis.
+
+
+## **3. Models Process Overview
+### ** X-Ray Image Preprocessing 
+Preprocess the datasets using the scripts provided.
+Run the models for classification or text analysis.
 
 ---
 
 For further details, refer to the detailed documentation in each model's folder.
+### ** Medical Reports Preprocessing 
+ - Suppression des caractères non pertinents
+ - Gestion des formats
+ - Anonymisation
+ - Filtrage des stopwords
+ - Extraction d'entités médicales
