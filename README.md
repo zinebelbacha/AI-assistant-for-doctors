@@ -12,7 +12,7 @@ AI assistant for doctors contains two advanced AI models designed to assist doct
 
 ## **1. Chest X-ray Classification Model**
 
-This model is a custom TensorFlow implementation for classifying chest X-ray images, leveraging the DenseNet121 architecture , fine tuned on the dataset below .
+This model is a custom TensorFlow implementation for classifying chest X-ray images, leveraging the DenseNet121 architecture , fine tuned on a customized dataset.
 
 ### **Model Details**
 - **Architecture**: DenseNet121
@@ -20,10 +20,6 @@ This model is a custom TensorFlow implementation for classifying chest X-ray ima
 - **Input size**: 224x224 pixels
 - **Number of classes**: 14 (common chest X-ray findings)
 
-### **Compatible Datasets**
-1. **NIH Chest X-ray Dataset**  
-   - **Source**: [Kaggle](https://www.kaggle.com/nih-chest-xrays/data)  
-   - **Contents**: 112,120 X-ray images from 30,805 unique patients  
 
 ## **2. OCR & Classifier Model for Medical Report Analysis**
 
