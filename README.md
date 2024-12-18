@@ -1,7 +1,7 @@
 ![image](https://github.com/user-attachments/assets/0dbfcceb-e74c-415b-99a2-5c80645ff06b)
 
 
-# What is ai assistant for doctors
+# What is the AI assistant for doctors?
 
 AI assistant for doctors contains two advanced AI models designed to assist doctors in diagnosing and analyzing medical conditions from chest X-ray images and medical reports. Below are the details of the two models:
 ![image](https://github.com/user-attachments/assets/f1bedf5d-8bf2-456b-b64d-64c303490806)
