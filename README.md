@@ -45,15 +45,19 @@ To use these models effectively, follow the instructions in the documentation pr
 ## **3. Models Process Overview**
 ### **X-Ray Image Preprocessing**
 Preprocess the datasets using the scripts provided.
-Run the models for classification or text analysis.
+Run the models for classification or text analysis.  
 
----
 ### **Medical Reports Preprocessing**
--Removal of irrelevant characters
--Format management
--Anonymization
--Stopword filtering
--Extraction of medical entities
+-Removal of irrelevant characters  
+
+-Format management  
+
+-Anonymization  
+
+-Stopword filtering  
+
+-Extraction of medical entities  
+
 ## **4.Deep Face Model for authentification**
 To enhance the security of the website, we have implemented two-factor authentication to ensure that only the authorized doctor can access the sensitive medical dataset.
 Below is an overview of the website and an image stored by our Deep Face Model as part of the authentication process.
