@@ -44,12 +44,12 @@ To use these models effectively, follow the instructions in the documentation pr
 
 
 ## **3. Models Process Overview**
-### ** X-Ray Image Preprocessing **
+### **X-Ray Image Preprocessing**
 Preprocess the datasets using the scripts provided.
 Run the models for classification or text analysis.
 
 
-### ** Medical Reports Preprocessing **
+### **Medical Reports Preprocessing**
 
 Here is the translation of the phrases into English:
 
