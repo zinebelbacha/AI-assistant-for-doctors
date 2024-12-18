@@ -48,16 +48,15 @@ Preprocess the datasets using the scripts provided.
 Run the models for classification or text analysis.
 
 ---
-
-For further details, refer to the detailed documentation in each model's folder.
 ### ** Medical Reports Preprocessing **
- - Suppression des caractères non pertinents
- - Gestion des formats
- - Anonymisation
- - Filtrage des stopwords
- - Extraction d'entités médicales
+-Removal of irrelevant characters
+-Format management
+-Anonymization
+-Stopword filtering
+-Extraction of medical entities
 ## **4.Deep Face Model for authentification**
-To enhance the security of the website, we have implemented two-factor authentication to ensure that only the authorized doctor can access the sensitive medical dataset. Below is an overview of the website and an image stored by our Deep Face Model as part of the authentication process.
+To enhance the security of the website, we have implemented two-factor authentication to ensure that only the authorized doctor can access the sensitive medical dataset.
+Below is an overview of the website and an image stored by our Deep Face Model as part of the authentication process.
 
 
 ![image](https://github.com/user-attachments/assets/521ebffb-a2e2-47dd-b950-b877205256e0)
