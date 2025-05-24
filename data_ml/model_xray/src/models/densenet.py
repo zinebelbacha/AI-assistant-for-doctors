@@ -4,6 +4,7 @@ from tensorflow.keras.layers import Dense, GlobalAveragePooling2D, Dropout
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
 from src.utils.logging import setup_logging
+import os
 
 class XRayDenseNet:
     def __init__(self, input_shape=(224, 224, 3), num_classes=3, model_path=None):
