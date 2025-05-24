@@ -1,0 +1,13 @@
+data:
+  output_dir: "data/processed/sputum_cytology_reports"
+  image_size: [800, 600]
+  font_path: "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+  num_reports: 200
+  train_ratio: 0.6
+  test_ratio: 0.2
+model:
+  input_shape: [224, 224, 3]
+  num_classes: 3
+  epochs: 50
+  batch_size: 32
+  model_dir: "data/models"

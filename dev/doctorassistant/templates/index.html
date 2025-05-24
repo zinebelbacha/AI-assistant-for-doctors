@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block title %}
+    <title>Doctor Assistant - Page d'Accueil</title>
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <header>
+            <h1>Bienvenue sur Doctor Assistant</h1>
+            <p>Votre assistant médical pour l'interprétation des radios et des analyses médicales.</p>
+            <img src="{% static 'images/DALL·E 2024-11-24 11.11.02 - A modern and sleek logo for a medical assistant platform. The logo should feature a stethoscope combined with a digital element, symbolizing the use o.webp' %}" alt="Doctor Assistant Logo" class="img-fluid logo"  style="max-width: 600px; height: auto;">
+        </header>
+
+        <section class="intro">
+            <h2>Qu'est-ce que Doctor Assistant ?</h2>
+            <p>Doctor Assistant est une plateforme innovante qui aide les médecins à analyser des radios et des résultats d'analyses médicales. Grâce à l'intelligence artificielle, nous fournissons des diagnostics et des recommandations pour améliorer les décisions médicales.</p>
+        </section>
+
+        <section class="features">
+            <h2>Fonctionnalités principales</h2>
+            <ul>
+                <li><strong>Analyse des radios :</strong> Téléchargez vos radiographies et laissez notre IA les analyser pour détecter des anomalies.</li>
+                <li><strong>Interprétation des analyses :</strong> Soumettez vos résultats d'analyses médicales pour obtenir une interprétation rapide et précise.</li>
+                <li><strong>Suivi des patients :</strong> Gérez les informations de vos patients et suivez leur historique médical sur notre plateforme.</li>
+            </ul>
+        </section>
+
+        <section class="actions">
+            <h2>Commencez dès maintenant</h2>
+            <p>Rejoignez-nous et commencez à utiliser Doctor Assistant pour améliorer vos pratiques médicales.</p>
+            <a href="{% url 'signup_face' %}" class="btn btn-primary">S'inscrire</a>
+            <a href="{% url 'login_face' %}" class="btn btn-secondary">Se connecter</a>
+        </section>
+    </div>
+{% endblock %}

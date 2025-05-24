@@ -1,0 +1,14 @@
+data:
+  zip_file_path: "data/raw/archive.zip"
+  tb_zip_file_path: "data/raw/tb_database.zip"
+  extraction_dir: "data/processed/3classes"
+  normal_dir: "data/processed/NORMAL"
+  image_size: [224, 224]
+  train_ratio: 0.6
+  test_ratio: 0.2
+model:
+  input_shape: [224, 224, 3]
+  num_classes: 3
+  epochs: 50
+  batch_size: 32
+  model_dir: "data/models"

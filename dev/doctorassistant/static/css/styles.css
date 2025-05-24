@@ -1,0 +1,80 @@
+/* Définir la police et le fond général */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Fond clair */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Texte général */
+}
+
+/* Suppression du bleu sur les liens */
+a {
+    color: inherit; /* Hérite de la couleur du parent */
+    text-decoration: none;
+}
+
+/* Suppression du bleu sur les liens au survol */
+a:hover {
+    color: inherit;
+    background-color: transparent;
+}
+
+/* Style pour le menu de navigation */
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #800000; /* Grenat */
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Style des éléments de la navigation */
+header nav ul li {
+    display: inline;
+}
+
+/* Style des liens de navigation */
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+/* Style au survol des liens de navigation */
+header nav ul li a:hover {
+    background-color: #660000; /* Teinte plus foncée */
+}
+
+/* Style du header */
+header {
+    background-color: #800000; /* Grenat */
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Style des sections de contenu */
+section {
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #f4f4f9; /* Gris clair */
+    border-radius: 5px;
+}
+
+/* Style des boutons avec le thème grenat */
+.btn {
+    background-color: #800000; /* Grenat */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #660000; /* Teinte plus foncée */
+}

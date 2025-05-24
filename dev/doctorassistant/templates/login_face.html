@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
+    <div class="col-12 col-md-6 col-lg-4 form-container bg-white p-4 rounded shadow">
+        <h1 class="text-center mb-4">Connexion</h1>
+        <form id="login-form" method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            <!-- Nom d'utilisateur -->
+            <div class="input-group mb-3">
+                <span class="input-group-text"><i class="fa fa-user"></i></span>
+                <input type="text" id="username" name="username" class="form-control" placeholder="Nom d'utilisateur" required>
+            </div>
+
+            <!-- Mot de passe -->
+            <div class="input-group mb-3">
+                <span class="input-group-text"><i class="fa fa-lock"></i></span>
+                <input type="password" id="password" name="password" class="form-control" placeholder="Mot de passe" required>
+            </div>
+
+            <!-- Capture de la webcam -->
+            <div class="text-center mb-3">
+                <video id="video" class="border rounded mb-2" style="width: 100%; max-height: 300px;" autoplay playsinline></video>
+                <canvas id="canvas" style="display: none;"></canvas>
+                <button type="button" id="capture-button" class="btn btn-outline-primary w-100 mt-2">
+                    <i class="fa fa-camera"></i> Capturer
+                </button>
+            </div>
+
+            <input type="hidden" id="captured-image" name="captured_image">
+
+            <!-- Bouton Connexion -->
+            <button type="submit" class="btn btn-primary w-100">
+                <i class="fa fa-sign-in-alt"></i> Connexion
+            </button>
+        </form>
+    </div>
+</div>
+
+<!-- Scripts pour gérer la webcam -->
+<script>
+    const video = document.getElementById('video');
+    const canvas = document.getElementById('canvas');
+    const captureButton = document.getElementById('capture-button');
+    const capturedImageInput = document.getElementById('captured-image');
+
+    // Accéder à la webcam
+    navigator.mediaDevices.getUserMedia({ video: true })
+        .then((stream) => {
+            video.srcObject = stream;
+        })
+        .catch((err) => {
+            console.error('Erreur d’accès à la webcam :', err);
+        });
+
+    // Capturer l'image
+    captureButton.addEventListener('click', () => {
+        const context = canvas.getContext('2d');
+        canvas.width = video.videoWidth;
+        canvas.height = video.videoHeight;
+        context.drawImage(video, 0, 0, canvas.width, canvas.height);
+        const imageData = canvas.toDataURL('image/png');
+        capturedImageInput.value = imageData; // Envoyer l'image encodée en base64
+    });
+</script>
+
+<style>
+    body {
+        background-color: #f8f9fa;
+    }
+    .form-container {
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    video {
+        max-width: 100%;
+        border: 1px solid #ddd;
+    }
+    button:focus {
+        box-shadow: 0 0 10px rgba(13, 110, 253, 0.5);
+    }
+</style>
+{% endblock %}
