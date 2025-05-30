@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/0dbfcceb-e74c-415b-99a2-5c80645ff06b)
+![image](https://github.com/user-attachments/assets/3f1bc791-7923-49db-911b-c805f7d81011)
 
 
 # What is AI assistant for doctors?
