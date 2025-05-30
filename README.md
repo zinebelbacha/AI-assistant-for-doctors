@@ -66,5 +66,5 @@ Here is the translation of the phrases into English:
 To enhance the security of the website, we have implemented two-factor authentication to ensure that only the authorized doctor can access the sensitive medical dataset. Below is an overview of the website and an image stored by our Deep Face Model as part of the authentication process.
 
 
-![image](https://github.com/user-attachments/assets/521ebffb-a2e2-47dd-b950-b877205256e0)
-![image](https://github.com/user-attachments/assets/a69ebd95-dab6-4d13-b85e-cbede92e7239)
+![WhatsApp Image 2025-05-30 at 16 06 51_85826acb](https://github.com/user-attachments/assets/1aa7e6fe-3e24-4e24-b0b0-dbffc565daec)
+![WhatsApp Image 2025-05-30 at 16 09 36_98e5234c](https://github.com/user-attachments/assets/ddda21c4-b79f-42b2-bc59-c03ee489527c)
