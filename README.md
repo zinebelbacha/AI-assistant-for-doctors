@@ -1,9 +1,9 @@
 ![WhatsApp Image 2025-05-30 at 16 05 01_68bedf56](https://github.com/user-attachments/assets/e9aaba50-1108-47c7-b0a2-9b42cb17e68e)
 
 
-# What is AI assistant for doctors?
+# What is the Medical Diagnosis Assistant?
 
-AI assistant for doctors contains two advanced AI models designed to assist doctors in diagnosing and analyzing medical conditions from chest X-ray images and medical reports. Below are the details of the two models:
+Medical Diagnosis Assistant contains two advanced AI models designed to assist doctors in diagnosing and analyzing medical conditions from chest X-ray images and medical reports. Below are the details of the two models:
 ![image](https://github.com/user-attachments/assets/291496e7-21f7-4c4f-92c1-2f15d2b76960)
 
 
